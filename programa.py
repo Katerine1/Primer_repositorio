@@ -13,5 +13,4 @@ while i<=4:
 	elif generator==number:
 		print "You Win"
 		break
-if i<=4:
-	print "Game over"
+print "Game over"
