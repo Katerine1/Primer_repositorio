@@ -32,8 +32,10 @@ while j<=4:
 	#When loop end and all turns are not correct then show message "Game over"
 		if i==5:
 			print "Game over"
+	#Variable "again" show message input to play again or not
 			again=raw_input("Do you want to play again, yes or no?: ")	
 			if again=="yes":
+			#variable "j" counting when "again"=yes
 				j+=1
 			elif again=="no":
 				print "Game over"
